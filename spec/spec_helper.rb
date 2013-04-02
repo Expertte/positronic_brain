@@ -3,7 +3,6 @@ root_path = File.expand_path File.join(File.dirname(__FILE__), '..')
 load File.join(root_path, 'lib/positronic_brain.rb')
 
 require 'rspec/mocks'
-require 'pry'
 
 PositronicBrain::Base.dump_path = File.join(root_path, 'tmp/dump')
 
